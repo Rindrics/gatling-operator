@@ -45,7 +45,7 @@ import (
 const (
 	requeueIntervalInSeconds           = 5     // 5 sec
 	maxJobCreationWaitTimeInSeconds    = 600   // 600 sec (10 min)
-	maxJobRunWaitTimeInSeconds         = 10800 // 10800 sec (3 hours)
+	maxJobRunWaitTimeInSeconds         = 36000 // 10800 sec (3 hours)
 	defaultGatlingImage                = "ghcr.io/st-tech/gatling:latest"
 	defaultRcloneImage                 = "rclone/rclone:latest"
 	defaultSimulationsDirectoryPath    = "/opt/gatling/user-files/simulations"
